@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .pfp {
+        width: 80px;
+        top: 30px;
+    }
+
+    .Ling {
+        width: 60px;
+    }
+
+    .Proj {
+        max-width: 100%;
+    }
+}

@@ -1,58 +1,95 @@
-@font-face {
-    font-family: persona;
-    src: url("./fonts/Persona5MenuFontPrototype-Regular.ttf") format('truetype');
-}
-
-body{
+body {
     background-image: url('https://i.redd.it/54obu7eenrq61.gif');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     font-family: persona;
-    .sobre{
-        border-radius: 10px;
-    }
 }
 
+.sobre {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
 
-main{
-
+main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    .Curso{
-        color: rgb(235, 31, 31);
-        font-weight: bold;
-        background-color: black;
-        border-radius: 10px;
-        font-family: persona;
-    }
-
-
-    .Bg{
-        width: 600px;
-        position: relative
-    }
-    .pfp{
-        margin: 0, auto;
-        border-radius:  100%;
-        display: inline-flex;
-        position: absolute;
-        width: 100px;
-        margin-top: 50px ;
-    }
+    position: relative;
 }
 
-section{
+.Bg {
+    width: 90%;
+    max-width: 600px;
+}
+
+.pfp {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    border-radius: 50%;
+}
+
+section {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    .cursos{
-        border-radius: 10px;
-    }
 }
 
+.Diag {
+    background-color: rgba(48, 48, 48, 0.637);
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.Diag img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.linguagens,
+.projetos {
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: rgba(48, 48, 48, 0.637);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.Ling {
+    width: 80px;
+    margin: 10px;
+}
+
+.Proj {
+    width: 100%;
+    max-width: 200px;
+    margin: 15px;
+    outline: 2px solid black;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
