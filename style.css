@@ -93,3 +93,15 @@ a {
     display: flex;
     justify-content: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    width: 100%;
+    max-width: 200px;
+    margin: 15px;
+    outline: 2px solid black;
+}
